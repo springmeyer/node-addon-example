@@ -1,5 +1,5 @@
 {
-    "name" : "node-addon-example",
+    "name" : "node-addon-example2",
     "version" : "0.1.3",
     "description" :"Hello world app packaged with node-pre-gyp",
     "main" : "./index.js",
@@ -11,7 +11,7 @@
     "binary": {
         "module_name" : "node_addon_example",
         "module_path" : "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
-        "remote_path" : "./{module_name}/v{version}/{configuration}/",
+        "remote_path" : "./{name}/v{version}/{configuration}/",
         "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
         "host"        : "https://node-pre-gyp-tests.s3-us-west-1.amazonaws.com"
     },
