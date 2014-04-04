@@ -16,7 +16,7 @@
         "host"        : "https://node-pre-gyp-tests.s3-us-west-1.amazonaws.com"
     },
     "dependencies"  : {
-      "node-pre-gyp": "https://github.com/mapbox/ndoe-pre-gyp/tarball/master"
+      "node-pre-gyp": "https://github.com/mapbox/node-pre-gyp/tarball/master"
     },
     "scripts": {
         "install": "node -e \"require('node-pre-gyp').install({fallback_to_build:true})\"",
