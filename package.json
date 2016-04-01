@@ -19,6 +19,7 @@
       "node-pre-gyp": "https://github.com/mapbox/node-pre-gyp/tarball/unbundle2"
     },
     "scripts": {
+        "preinstall": "npm install node-pre-gyp",
         "install" : "node-pre-gyp install --fallback-to-build",
         "test": "node index.js",
         "prepublish": "npm ls"
