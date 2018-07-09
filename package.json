@@ -19,13 +19,11 @@
       "nan": "2.x",
       "node-pre-gyp": "0.6.x"
     },
-    "bundledDependencies":["node-pre-gyp"],
     "devDependencies": {
         "aws-sdk": "2.x"
     },
     "scripts": {
         "install" : "node-pre-gyp install --fallback-to-build",
-        "test": "node index.js",
-        "prepublish": "npm ls"
+        "test": "node index.js"
     }
 }
